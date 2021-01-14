@@ -1,0 +1,21 @@
+.home-intro {
+  margin-top: 0px;
+
+  .title h1 {
+    @include heading-h2-mobile;
+    color: $gray-scale-0;
+
+    @include mq("L") {
+      @include heading-title;
+      color: $gray-scale-0;
+    }
+  }
+
+  @include mq("M") {
+    margin-top: 80px;
+  }
+
+  @include mq("L") {
+    padding: map-get($spacings, 13) 0px;
+  }
+}

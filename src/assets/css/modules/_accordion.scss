@@ -1,0 +1,15 @@
+.o-accordion {
+	max-width: 500px;
+	margin: 10px auto;
+	
+	web-accordion-item h1 {
+		background: grey;
+		margin: 0;
+		padding: 10px;
+		cursor: pointer;
+	}
+	web-accordion-item div {
+		background: lightgray;
+		padding: 20px 10px;
+	}
+}

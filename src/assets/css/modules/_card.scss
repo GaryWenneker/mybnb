@@ -1,0 +1,42 @@
+.card {
+    background: $gray-scale-0;
+
+    @include mq('XS') {
+        padding: map-get($spacings, 3);
+    }
+    @include mq('L') {
+        padding: map-get($spacings, 7) map-get($spacings, 13);
+    }
+
+
+    h2 {
+        @include heading-h2;
+        color: $gray-scale-9;
+        margin-bottom: map-get($spacings, 2);
+    }
+
+    p {
+        @include paragraph-standard;
+        color: $gray-scale-9;
+        margin-bottom: map-get($spacings, 3);
+    }
+
+    &__signup {
+        background: #FFF url(/assets/stamp/in-vino-veritas/001/half.svg);
+        background-size: 184px;
+        background-repeat: no-repeat;
+        background-position: center right;
+
+        form .btn-primary {
+            margin-top: map-get($spacings, 3);
+            margin-bottom: 0;
+        }
+
+        @include mq('XS') {
+            margin: map-get($spacings, 3) 0;
+        }
+        @include mq('L') {
+            margin: 152px 0;
+        }
+    }
+}

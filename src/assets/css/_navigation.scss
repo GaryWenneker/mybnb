@@ -1,0 +1,22 @@
+nav {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+    margin-bottom: 0;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: map-get($spacings, 2) map-get($spacings, 1);
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,77 @@
+.o-content-block {
+	position: relative;
+	z-index: 10;
+	display: flex;
+	margin: 6em 0 0 0;
+	padding: 80px 0 80px 0;
+
+	@include mq("M") {
+		padding: 104px 0 104px 0;
+	}
+
+	.title {
+		font-family: "Playfair Display";
+		color: #242525;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.intro {
+		font-family: "Lato";
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 24px;
+		color: #3c3d3f;
+		margin-top: 24px;
+		margin-bottom: 32px;
+	}
+}
+
+.o-usp-counter {
+	.row {
+		display: flex;
+		margin: 0 0 42px 0;
+	}
+	&__count {
+		font-family: "Playfair Display";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 40px;
+		font-feature-settings: "pnum" on, "lnum" on;
+		color: #96735b;
+		width: 56px !important;
+	}
+	&__intro {
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 24px;
+		color: #151515;
+		padding-top: 1rem;
+		margin-left: 24px;
+	}
+}
+
+.o-footer {
+    position: relative;
+	z-index: 10;
+	display: flex;
+	min-height: 300px;
+	flex: none;
+	order: 5;
+	align-self: stretch;
+	flex-grow: 0;
+	margin: 0px 0px;
+    background: #f2efe3;
+    padding-bottom: 42px;
+
+    @include mq('M') {
+        min-height: 280px;
+        padding-bottom: 0px; 
+    }
+}

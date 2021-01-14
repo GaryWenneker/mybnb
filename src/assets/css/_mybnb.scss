@@ -1,0 +1,78 @@
+.o-wine-block-item {
+    width: 307px;
+    height: 505px;
+    //background-color: rgb(red, green, blue);
+    margin-bottom: 1em;
+
+    &__image {
+        left: 34.13%;
+        right: 34.21%;
+        width: 84px;
+        height: 241px;
+        background: url(https://www.svgrepo.com/show/148632/wine-bottle.svg);
+    }
+
+    &__block {
+        width: 315px;
+        height: 319px;
+        background-color: red;//#F2EFE3;
+    }
+
+    &__intro {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #5c6063;
+    }
+
+    &__title {
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #242525;
+    }
+
+    &__price {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: #2e6092;
+    }
+
+    &__itemsleft {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #5c6063;
+    }
+
+    &__button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 16px 24px;
+        width: 124px;
+        height: 52px;
+        background: #17395c;
+        border-radius: 2px;
+    }
+
+    &__link {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1c446d;
+    }
+}
